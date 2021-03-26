@@ -6,5 +6,6 @@
     - [개발 문서](https://github.com/wnsgudchl0302/HandWork_Project_2021/tree/master/DevDoc) 업로드
 
 - ## 3월 24~25일
-    - 기초 데이터베이스 구상(멤버 테이블, 주소(codezip)테이블)
+    - 기초 데이터베이스 구상
+        - 로그인 & 회원가입 (멤버 테이블, 주소(codezip)테이블)
 
