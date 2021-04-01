@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">테이블명</Data></Cell>
+			<Cell><Data ss:Type="String">필드순번</Data></Cell>
+			<Cell><Data ss:Type="String">필드명</Data></Cell>
+			<Cell><Data ss:Type="String">데이터 TYPE</Data></Cell>
+			<Cell><Data ss:Type="String">데이터 LENGTH</Data></Cell>
+			<Cell><Data ss:Type="String">KEY</Data></Cell>
+			<Cell><Data ss:Type="String">NULL값여부</Data></Cell>
+			<Cell><Data ss:Type="String">자동여부</Data></Cell>
+			<Cell><Data ss:Type="String">디폴트값</Data></Cell>
+			<Cell><Data ss:Type="String">필드설명</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">h_board</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">idx</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">h_member</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">idx</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String">int</Data></Cell>
+			<Cell><Data ss:Type="String">PRI</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">h_member</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">id</Data></Cell>
+			<Cell><Data ss:Type="String">varchar</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(45)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">h_member</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String">pw</Data></Cell>
+			<Cell><Data ss:Type="String">varchar</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(45)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">h_member</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String">name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(45)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">h_member</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String">email</Data></Cell>
+			<Cell><Data ss:Type="String">varchar</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(45)</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
