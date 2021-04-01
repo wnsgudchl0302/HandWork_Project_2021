@@ -24,10 +24,8 @@
 			<tr>
 				<td>이메일</td>
 				<td><input type="text" name="email1"></td>
-				<td>@<input type="text" name="email2"></td>
-				
+				<td>@<input type="text" name="email2"></td>	
 			</tr>
-			
 		</table>
 		<input type="submit" value="등록">
 	</form>

@@ -3,11 +3,8 @@
 <%@ page import="java.sql.*"%>
 
 <%
-
 request.setCharacterEncoding("utf-8");
-
-	Class.forName("com.mysql.cj.jdbc.Driver");
-
+Class.forName("com.mysql.cj.jdbc.Driver");
 String dbURL = "jdbc:mysql://localhost:3306/handwork?serverTimezone=UTC";
 String dbID = "root";
 String dbPassword = "1234";
@@ -19,20 +16,14 @@ try (Connection conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 	if (rs.next()) {
 		session.setAttribute("id", rs.getString("id"));
 		session.setAttribute("name", rs.getString("name"));
-		
+
 		response.sendRedirect("main.jsp");
 		return;
-		
-		
 	}
 
 } catch (Exception e) {
 	e.printStackTrace();
 }
-
-
-
-
 %>
 <!DOCTYPE html>
 <html>
