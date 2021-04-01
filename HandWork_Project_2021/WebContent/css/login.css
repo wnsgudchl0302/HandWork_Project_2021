@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+
+*{box-sizing: border-box;}
+body{font-family: 'Nanum Gothic', sans-serif;  font-size: 14px;}
+body{min-width: 1280px;}
+header {display: flex; justify-content: space-between; align-items: center; height: 60px; margin: 0 100px 0 100px;}
+header > * { flex-grow: 1; flex-basis:0;}
+header .left {display: flex;}
+header .left .menu-btn {display: inline-flex; align-items: center; margin: 0 10px 0 0;}
+header .left .menu-btn img {width: 30px; height: 40px;}
+header .left .main-logo { display: flex; align-items: center;}
+header .left .main-logo img {height: 50px;}
+header .left .main-logo p {font-size: 30px; font-weight: bold; color:#3f3f3f;} 
+header .search { display: flex; align-items: center;}
+header .search .text { height: 30px; margin-right: 10px;}
+header .search .btn {width: 30px; height: 30px;}
+header .login { display: flex; align-items: center; justify-content: flex-end;}
+header .login li a {padding: 0 5px 0 5px;}
+header .login li:last-child a {padding-right: 0px;}
+header .login li a:hover {color: black; font-weight: bold;}
+
+.login-section { display: flex; justify-content: center; align-items: flex-start; width: 100%; height: 700px; padding: 80px; background:whitesmoke}
+.login-section .login-container { display: flex; flex-direction: column; justify-content: flex-start; align-items: center; width: 400px;}
+.login-section .login-container > p.horizontal-login { display: block; width: 100%; font-size: 26px; font-weight: bold; color: rgba(0, 0, 0, 0.85); text-align: center;}
+.login-section .login-container > p.horizontal-login::after { display: block; content: ""; height: 1px; width: 100%; background: black; margin: 20px 0;}
+.login-section .login-container form { display: flex; width: 100%; flex-direction: column; justify-content: flex-start; align-items: center;  }
+.login-section .login-container form input { display:block; width: 100%; height: 50px; margin: 10px 0; font-size: 18px; font-weight: 400;}
+.login-section .login-container form input[class^=text] {border: 1px solid rgba(0, 0, 0, 0.3); border-radius: 1px;}
+.login-section .login-container form input::placeholder { font-size: 90%; }
+.login-section .login-container form input.btn-login { font-size: 20px; font-weight: 400; color: white; background: tomato; }
+.login-section .login-container form input.btn-login:hover { background: darkred; transition: 0.25s; }
+.login-section .login-container form > a {width: 100%; text-align: end; font-weight: lighter; font-size: 14px; color: rgba(0, 0, 0, 0.65);}
+.login-section .login-container form > a:hover { font-weight: 500; color: black;}
+.login-section .login-container p.horizontal-or {display: flex; width: 100%; justify-content: space-between; align-items: center; color: black; font-size: 16px; line-height: 16px; margin: 25px 0;}
+.login-section .login-container p.horizontal-or::before, p.horizontal-or::after { content: ""; width: 43%; height: 1px; background: black; line-height: 16px;}
+.login-section .login-container a.btn-login-kakao { display: block; width: 100%; height: 50px; background: url(../images/kakao_login.png) center no-repeat; background-size: cover; }
+
+footer {  display: flex; background: gray; height: 200px;}
