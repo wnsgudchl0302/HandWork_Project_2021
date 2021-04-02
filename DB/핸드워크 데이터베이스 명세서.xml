@@ -1,105 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <?mso-application progid="Excel.Sheet"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:x="urn:schemas-microsoft-com:office:excel"
-xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
-xmlns:html="http://www.w3.org/TR/REC-html40">
-<Worksheet ss:Name="Table1">
-	<Table>
-		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
-		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
-		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
-		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
-		<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>
-		<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="110"/>
-		<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="110"/>
-		<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="110"/>
-		<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="110"/>
-		<Row>
-			<Cell><Data ss:Type="String">테이블명</Data></Cell>
-			<Cell><Data ss:Type="String">필드순번</Data></Cell>
-			<Cell><Data ss:Type="String">필드명</Data></Cell>
-			<Cell><Data ss:Type="String">데이터 TYPE</Data></Cell>
-			<Cell><Data ss:Type="String">데이터 LENGTH</Data></Cell>
-			<Cell><Data ss:Type="String">KEY</Data></Cell>
-			<Cell><Data ss:Type="String">NULL값여부</Data></Cell>
-			<Cell><Data ss:Type="String">자동여부</Data></Cell>
-			<Cell><Data ss:Type="String">디폴트값</Data></Cell>
-			<Cell><Data ss:Type="String">필드설명</Data></Cell>
-		</Row>
-
-		<Row>
-			<Cell><Data ss:Type="String">h_board</Data></Cell>
-			<Cell><Data ss:Type="Number">1</Data></Cell>
-			<Cell><Data ss:Type="String">idx</Data></Cell>
-			<Cell><Data ss:Type="String">int</Data></Cell>
-			<Cell><Data ss:Type="String">int</Data></Cell>
-			<Cell><Data ss:Type="String">PRI</Data></Cell>
-			<Cell><Data ss:Type="String">NO</Data></Cell>
-			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-		</Row>
-		<Row>
-			<Cell><Data ss:Type="String">h_member</Data></Cell>
-			<Cell><Data ss:Type="Number">1</Data></Cell>
-			<Cell><Data ss:Type="String">idx</Data></Cell>
-			<Cell><Data ss:Type="String">int</Data></Cell>
-			<Cell><Data ss:Type="String">int</Data></Cell>
-			<Cell><Data ss:Type="String">PRI</Data></Cell>
-			<Cell><Data ss:Type="String">NO</Data></Cell>
-			<Cell><Data ss:Type="String">auto_increment</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-		</Row>
-		<Row>
-			<Cell><Data ss:Type="String">h_member</Data></Cell>
-			<Cell><Data ss:Type="Number">2</Data></Cell>
-			<Cell><Data ss:Type="String">id</Data></Cell>
-			<Cell><Data ss:Type="String">varchar</Data></Cell>
-			<Cell><Data ss:Type="String">varchar(45)</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String">NO</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-		</Row>
-		<Row>
-			<Cell><Data ss:Type="String">h_member</Data></Cell>
-			<Cell><Data ss:Type="Number">3</Data></Cell>
-			<Cell><Data ss:Type="String">pw</Data></Cell>
-			<Cell><Data ss:Type="String">varchar</Data></Cell>
-			<Cell><Data ss:Type="String">varchar(45)</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String">YES</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-		</Row>
-		<Row>
-			<Cell><Data ss:Type="String">h_member</Data></Cell>
-			<Cell><Data ss:Type="Number">4</Data></Cell>
-			<Cell><Data ss:Type="String">name</Data></Cell>
-			<Cell><Data ss:Type="String">varchar</Data></Cell>
-			<Cell><Data ss:Type="String">varchar(45)</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String">YES</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-		</Row>
-		<Row>
-			<Cell><Data ss:Type="String">h_member</Data></Cell>
-			<Cell><Data ss:Type="Number">5</Data></Cell>
-			<Cell><Data ss:Type="String">email</Data></Cell>
-			<Cell><Data ss:Type="String">varchar</Data></Cell>
-			<Cell><Data ss:Type="String">varchar(45)</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String">YES</Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-			<Cell><Data ss:Type="String"></Data></Cell>
-		</Row>	</Table>
-</Worksheet>
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6740</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Table1">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="52" ss:DefaultRowHeight="17">
+   <Column ss:AutoFitWidth="0" ss:Width="110"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110" ss:Span="7"/>
+   <Row>
+    <Cell><Data ss:Type="String">테이블명</Data></Cell>
+    <Cell><Data ss:Type="String">필드순번</Data></Cell>
+    <Cell><Data ss:Type="String">필드명</Data></Cell>
+    <Cell><Data ss:Type="String">데이터 TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">데이터 LENGTH</Data></Cell>
+    <Cell><Data ss:Type="String">KEY</Data></Cell>
+    <Cell><Data ss:Type="String">NULL값여부</Data></Cell>
+    <Cell><Data ss:Type="String">자동여부</Data></Cell>
+    <Cell><Data ss:Type="String">디폴트값</Data></Cell>
+    <Cell><Data ss:Type="String">필드설명</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">h_board</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">idx</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">auto_increment</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">h_member</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">idx</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">auto_increment</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">h_member</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">varchar</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(45)</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">h_member</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">pw</Data></Cell>
+    <Cell><Data ss:Type="String">varchar</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(45)</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">h_member</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">varchar</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(45)</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">h_member</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">email</Data></Cell>
+    <Cell><Data ss:Type="String">varchar</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(45)</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+     <RangeSelection>R5C7:R7C7,R12C7</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
 </Workbook>
