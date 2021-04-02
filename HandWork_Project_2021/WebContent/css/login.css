@@ -21,7 +21,7 @@ header .login li a {padding: 0 5px 0 5px;}
 header .login li:last-child a {padding-right: 0px;}
 header .login li a:hover {color: black; font-weight: bold;}
 
-.main-section { display: flex; justify-content: center; align-items: flex-start; width: 100%; height: 700px; padding: 80px; background:whitesmoke}
+.main-section { display: flex; justify-content: center; align-items: flex-start; width: 100%; height: 800px; padding: 80px; background:whitesmoke}
 .main-section .inner-container { display: flex; flex-direction: column; justify-content: flex-start; align-items: center; width: 400px;}
 .main-section .inner-container > p.horizontal-title { display: block; width: 100%; font-size: 26px; font-weight: bold; color: rgba(0, 0, 0, 0.85); text-align: center;}
 .main-section .inner-container > p.horizontal-title::after { display: block; content: ""; height: 1px; width: 100%; background: black; margin: 20px 0;}
@@ -38,11 +38,18 @@ header .login li a:hover {color: black; font-weight: bold;}
 .login-section .login-container a.btn-login-kakao { display: block; width: 100%; height: 50px; background: url(../images/kakao_login.png) center no-repeat; background-size: cover; }
 
 
+.join-section .inner-container > p.horizontal-title::after {margin: 20px 0 0 0;}
 .join-section .join-container form { display: flex; width: 600px; flex-direction: column; align-items: center; justify-content: center;}
 .join-section .join-container form .radio-group {display: flex; width: 100%; justify-content: center;}
 .join-section .join-container form .radio-group input { width: 0; height: 0; }
-.join-section .join-container form .radio-group input+label { display: inline-flex; width: 200px; height: 50px; border: 1px solid #666; background: grey; color: #fff; justify-content: center; align-items: center;}
+.join-section .join-container form .radio-group input+label { display: inline-flex; width: 200px; height: 65px; border: 1px solid #666; background: grey; font-size: 16px; font-weight: 500; color: #fff; justify-content: center; align-items: center;}
 .join-section .join-container form .radio-group input:checked+label {background: tomato;}
+.join-section .join-container form p.form-subs { font-size: 16px; padding: 20px 0 10px 0; }
+.join-section .join-container form div.join-input-row { display: flex; width: 400px; height: 65px; justify-content: space-between; padding: 10px 0; }
+.join-section .join-container form div.join-input-row label { display: flex;  height: 100%; width:100px; font-size: 20px; justify-content: space-between; align-items: center;}
+.join-section .join-container form div.join-input-row label::after { content: ":"; display: block; margin-right: 10px;}
+.join-section .join-container form div.join-input-row input[class^=join-] { width: 300px; height: 100% }
+
 
 
 footer {  display: flex; background: silver; height: 200px;}

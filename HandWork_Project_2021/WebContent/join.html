@@ -40,12 +40,34 @@
         <div class="join-container inner-container">
             <p class="horizontal-join horizontal-title">회원가입</p>
             <form action="">
+                <p class="form-subs" >사용자 유형</p>
                 <div class="radio-group">
-                    <input type="radio" name="user-type" id="customer" value="free" class="radio-user-type" checked>
+                    <input type="radio" name="user-type" id="customer" value="free" class="radio-type-user" checked>
                     <label class="" for="customer">구매자</label>
-                    <input type="radio" name="user-type" id="seller" value="free" class="radio-user-type">
+                    <input type="radio" name="user-type" id="seller" value="free" class="radio-type-user">
                     <label class="" for="seller">제작자</label>
-                </div>               
+                </div>
+                <p class="form-subs" >계정 유형</p>
+                <div class="radio-group">
+                    <input type="radio" name="join-type" id="local" value="local" class="radio-type-join" checked>
+                    <label class="" for="local">로컬</label>
+                    <input type="radio" name="join-type" id="kakao" value="kakao" class="radio-type-join">
+                    <label class="" for="kakao">카카오</label>
+                </div>
+                <p class="form-subs">회원정보 입력</p>
+                <div class="join-input-row">                
+                    <label for="join-id"><span>아이디</span></label>
+                    <input type="text" class="join-id" placeholder="아이디를 입력하세요.">
+                </div>
+                <div class="join-input-row">                
+                    <label for="join-id"><span>아이디</span></label>
+                    <input type="text" class="join-id" placeholder="아이디를 입력하세요.">
+                </div>
+                <div class="join-input-row">                
+                    <label for="join-id"><span>아이디</span></label>
+                    <input type="text" class="join-id" placeholder="아이디를 입력하세요.">
+                </div>
+                
                 <!-- <input type="submit" class="btn-join" value="회원가입"> -->
             </form>
             <a href="" class="btn-login-kakao"></a>
